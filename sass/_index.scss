@@ -1,0 +1,21 @@
+
+/*aplico mixin*/
+@mixin tamaños ($width, $height){
+    width: $width
+    height: $width
+}
+
+footer { 
+    padding: 20px;
+    color: white;
+    background-color: $azulvikingo; 
+
+    .imagenes-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .imagenes-footer img {
+        @include tamaños (30px, 30px);
+    }
+}

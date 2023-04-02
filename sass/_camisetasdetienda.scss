@@ -1,0 +1,29 @@
+
+/*aplico mixin*/
+@mixin tamaños ($width, $height) {
+    width: $width
+    height: $height
+}
+
+.galeria-tienda-container {
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr) ;
+    grid-template-rows: repeat( 3, 3fr);
+    grid-row-gap: 50px;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-galeria-tienda img {
+    @include tamaños (200px, 200px);
+    
+}
+
+.titulo-tienda {
+    display: flex;
+    justify-content: center;
+
+    
+
+}

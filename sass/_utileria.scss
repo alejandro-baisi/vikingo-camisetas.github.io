@@ -1,0 +1,25 @@
+
+/*aplico mixin*/
+@mixin tamaños ($width, $height) {
+    width: $width
+    height: $height
+}
+
+.titulo-utileria {
+    display: flex;
+    justify-content: center;
+}
+.main-galeria-utileria img {
+    @include tamaños (250px, 250px);
+}
+
+.galeria-utileria {
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr) ;
+    grid-template-rows: repeat( 2, 3fr);
+    grid-row-gap: 50px;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}

@@ -1,0 +1,154 @@
+/*estilo general*/
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,500;1,700&display=swap");
+footer {
+  padding: 20px;
+  color: white;
+  background-color: rgb(0, 8, 55);
+}
+footer .imagenes-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .imagenes-footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.galeria-tienda-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 3fr);
+  grid-row-gap: 50px;
+  justify-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-galeria-tienda img {
+  width: 200px;
+  height: 200px;
+}
+
+.titulo-tienda {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-utileria {
+  display: flex;
+  justify-content: center;
+}
+
+.main-galeria-utileria img {
+  width: 250px;
+  height: 250px;
+}
+
+.galeria-utileria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 3fr);
+  grid-row-gap: 50px;
+  justify-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.titulo-seguimiento {
+  display: flex;
+  justify-content: center;
+}
+
+.links-seguimiento {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titulo-contacto {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  padding: 30px;
+  width: 30%;
+  margin-bottom: 80px;
+}
+
+.formulario-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*variables*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Prompt";
+}
+
+.nombredepagina {
+  color: white;
+  display: flex;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(246, 246, 248);
+  color: rgb(0, 8, 55);
+}
+
+#header-principal {
+  margin: 0px;
+  background-color: rgb(0, 8, 55);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#header-principal .menu-nav {
+  padding: 1px;
+  display: flex;
+  align-items: center;
+}
+#header-principal ul {
+  display: flex;
+}
+#header-principal ul li {
+  list-style: none;
+  margin: 0px 10px;
+}
+#header-principal ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*table*/
+/*mobile*/
+@media only screen and (max-width: 576px) {
+  /* estilos generales*/
+  #header-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  /*camisetas de tienda */
+  .galeria-tienda-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 2fr);
+  }
+  /* camisetas utileria */
+  .galeria-utileria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 2fr);
+  }
+  /* seguimiento */
+  .links-seguimiento {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=style.css.map */
