@@ -1,5 +1,16 @@
 /*estilo general*/
+/*variables*/
+/*aplico mixin*/
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,500;1,700&display=swap");
+main .txt-main {
+  text-align: center;
+  padding: 30px;
+}
+main .txt-index {
+  text-align: center;
+  padding: 40px;
+}
+
 footer {
   padding: 20px;
   color: white;
@@ -11,9 +22,10 @@ footer .imagenes-footer {
 }
 footer .imagenes-footer img {
   width: 30px;
-  height: 30px;
+  height: height;
 }
 
+/*aplico mixin*/
 .galeria-tienda-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -34,6 +46,7 @@ footer .imagenes-footer img {
   justify-content: center;
 }
 
+/*aplico mixin*/
 .titulo-utileria {
   display: flex;
   justify-content: center;
@@ -80,7 +93,6 @@ fieldset {
   justify-content: center;
 }
 
-/*variables*/
 * {
   padding: 0px;
   margin: 0px;

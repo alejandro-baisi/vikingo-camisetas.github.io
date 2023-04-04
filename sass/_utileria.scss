@@ -1,8 +1,8 @@
 
 /*aplico mixin*/
 @mixin tamaños ($width, $height) {
-    width: $width
-    height: $height
+    width: $width;
+    height: $height;
 }
 
 .titulo-utileria {
