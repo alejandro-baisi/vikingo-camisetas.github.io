@@ -54,14 +54,14 @@ footer .imagenes-footer img {
 }
 
 .main-galeria-utileria img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 .galeria-utileria {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 3fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-row-gap: 50px;
   justify-items: center;
   margin-top: 20px;
@@ -75,8 +75,12 @@ footer .imagenes-footer img {
 }
 
 .links-seguimiento {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .titulo-contacto {
@@ -107,13 +111,16 @@ fieldset {
   margin: auto;
 }
 
+h1 {
+  margin-top: 20px;
+}
+
 body {
   background-color: rgb(246, 246, 248);
   color: rgb(0, 8, 55);
 }
 
 #header-principal {
-  margin: 0px;
   background-color: rgb(0, 8, 55);
   display: flex;
   justify-content: space-between;
@@ -123,21 +130,62 @@ body {
   padding: 1px;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 #header-principal ul {
   display: flex;
 }
 #header-principal ul li {
   list-style: none;
-  margin: 0px 10px;
+  margin: 3px;
 }
 #header-principal ul li a {
   color: white;
   text-decoration: none;
 }
 
-/*table*/
-/*mobile*/
+/*xsmall*/
+@media only screen and (max-width: 440px) {
+  #header-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #header-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  /*camisetas de tienda */
+  .galeria-tienda-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 2fr);
+  }
+  /* camisetas utileria */
+  .galeria-utileria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  /* seguimiento */
+  .links-seguimiento a {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 250px;
+    height: 250px;
+  }
+}
 @media only screen and (max-width: 576px) {
   /* estilos generales*/
   #header-principal {
@@ -157,12 +205,12 @@ body {
   /* camisetas utileria */
   .galeria-utileria {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   /* seguimiento */
   .links-seguimiento {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */

@@ -5,6 +5,12 @@
 
 
 .links-seguimiento {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
 }

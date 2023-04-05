@@ -10,13 +10,13 @@
     justify-content: center;
 }
 .main-galeria-utileria img {
-    @include tamaños (250px, 250px);
+    @include tamaños (200px, 200px);
 }
 
 .galeria-utileria {
     display: grid;
     grid-template-columns: repeat( 4, 1fr);
-    grid-template-rows: repeat( 2, 3fr);
+    grid-template-rows: repeat( 3, 1fr);
     grid-row-gap: 50px;
     justify-items: center;
     margin-top: 20px;

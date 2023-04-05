@@ -25,10 +25,11 @@ $azulvikingo: rgb(0 8 55);
 .nombredepagina {
     color: white;
     display: flex;
-    margin: auto;
+    margin: auto;    
+}
 
-   
-    
+h1 {
+    margin-top: 20px;
 }
 
 
@@ -40,38 +41,96 @@ body {
 
 
 #header-principal { 
-    margin: 0px;
+    
     background-color: $azulvikingo;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
     .menu-nav {  
         padding: 1px;
         display: flex;
         align-items: center;
+        text-align: center;
     }
     ul {
         display: flex;    
       }
       ul li {
         list-style: none;
-        margin:0px 10px;
+        margin: 3px;
+        
     }
     ul li a {
         color: white;
-        
         text-decoration: none;
     }
 }
 
 
-/*table*/
-@media only screen and (max-width: 768px) {
+/*xsmall*/
+@media only screen and (max-width: 440px) {
+
+    #header-principal {
+        flex-direction: column; 
+        align-items: center; 
+        
+      }
+
+      .logo-container {
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
   
 }
 
+ @media only screen and (max-width: 480px) {
 
-/*mobile*/
+    #header-principal {
+        flex-direction: column; 
+        align-items: center; 
+        
+      }
+
+      .logo-container {
+        display: flex;
+        align-items: center;
+        margin: auto;
+      }
+
+      /*camisetas de tienda */
+
+    .galeria-tienda-container {
+        grid-template-columns: repeat( 2, 1fr);
+        grid-template-rows: repeat( 6, 2fr);
+    }
+
+    /* camisetas utileria */
+
+    .galeria-utileria {
+        grid-template-columns: repeat( 2, 1fr);
+        grid-template-rows: repeat( 3, 1fr);
+    }
+
+    /* seguimiento */
+
+    .links-seguimiento a {
+        display: grid; 
+        justify-items: center;
+        grid-template-columns: repeat( 2, 1fr);
+        grid-template-rows: repeat( 1, 1fr);
+        width: 250px;
+        height: 250px;
+}
+
+
+
+
+ }
+
+    
+  
 
   @media only screen and (max-width: 576px) {
     /* estilos generales*/
@@ -99,7 +158,7 @@ body {
 
     .galeria-utileria {
         grid-template-columns: repeat( 2, 1fr);
-        grid-template-rows: repeat( 4, 2fr);
+        grid-template-rows: repeat( 3, 1fr);
     }
 
     /* seguimiento */
@@ -107,10 +166,16 @@ body {
     .links-seguimiento {
         display: grid; 
         grid-template-columns: repeat( 2, 1fr);
-        grid-template-rows: repeat( 2, 1fr);
-
+        grid-template-rows: repeat( 3, 1fr);
     }
-}
+  }
+     
+
+
+
+
+
+
 
 
   
