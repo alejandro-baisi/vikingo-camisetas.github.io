@@ -83,6 +83,11 @@ footer .imagenes-footer img {
   margin-bottom: 20px;
 }
 
+.links-seguimiento a img {
+  width: 300px;
+  height: 180px;
+}
+
 .titulo-contacto {
   display: flex;
   justify-content: center;
@@ -109,6 +114,7 @@ fieldset {
   color: white;
   display: flex;
   margin: auto;
+  font-family: Prompt;
 }
 
 h1 {
@@ -118,6 +124,7 @@ h1 {
 body {
   background-color: rgb(246, 246, 248);
   color: rgb(0, 8, 55);
+  font-family: Prompt;
 }
 
 #header-principal {
@@ -144,18 +151,6 @@ body {
   text-decoration: none;
 }
 
-/*xsmall*/
-@media only screen and (max-width: 440px) {
-  #header-principal {
-    flex-direction: column;
-    align-items: center;
-  }
-  .logo-container {
-    display: flex;
-    align-items: center;
-    margin: auto;
-  }
-}
 @media only screen and (max-width: 490px) {
   #header-principal {
     flex-direction: column;
@@ -178,10 +173,10 @@ body {
   }
   /* seguimiento */
   .links-seguimiento a {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
     width: 250px;
     height: 250px;
   }
@@ -209,8 +204,9 @@ body {
   }
   /* seguimiento */
   .links-seguimiento {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
