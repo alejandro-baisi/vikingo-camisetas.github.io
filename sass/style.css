@@ -201,7 +201,8 @@ body {
     flex-direction: column;
     width: 250px;
     height: 250px;
-    margin-bottom: 300px;
+    margin-top: 20px;
+    margin-bottom: 550px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -231,6 +232,7 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
-    margin-bottom: 500px;
+    margin-top: 20px;
+    margin-bottom: 550px;
   }
 }/*# sourceMappingURL=style.css.map */
