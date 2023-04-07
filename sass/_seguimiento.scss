@@ -1,21 +1,43 @@
-.titulo-seguimiento {
-    display: flex;
-    justify-content: center;
-}
 
 
-.links-seguimiento {
+.links-container {
     display: grid;
-    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
     margin-top: 20px;
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 50px;
 }
 
-.links-seguimiento a img {
-    width: 300px;
-    height: 180px;
+.dhl-container, .andreani-container, .mercado-libre-container, .correo-argentino-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.button {
+    margin-top: 10px;
+}
+
+.links-container img {
+        width: 300px;
+        height: 180px;
+
+    }
+
+input[type="submit"] {
+    background-color: rgb(0, 8, 55);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(79 101 230);
+}    
