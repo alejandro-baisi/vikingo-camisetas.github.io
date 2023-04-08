@@ -200,9 +200,11 @@ body {
   .links-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 500px;
-  }
+    margin-bottom: 500px; 
+    }
 }
+
+
 @media only screen and (min-width: 490px) and (max-width: 576px) {
   /* estilos generales*/
   #header-principal {
@@ -233,4 +235,8 @@ body {
     flex-direction: column;
     margin-bottom: 500px;
   }
-}/*# sourceMappingURL=style.css.map */
+    
+  }
+
+
+/*# sourceMappingURL=style.css.map */
