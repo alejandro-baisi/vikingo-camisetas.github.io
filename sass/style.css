@@ -181,31 +181,29 @@ body {
   .logo-container {
     display: flex;
     align-items: center;
-    margin: auto;
+    justify-content: center;
+  }
+  footer {
+    padding-top: 30px;
   }
   /*camisetas de tienda */
   .galeria-tienda-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 2fr);
+    grid-template-rows: auto;
   }
   /* camisetas utileria */
   .galeria-utileria {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
   }
   /* seguimiento */
   .links-container {
     display: flex;
-    align-items: center;
-    align-content: center;
     flex-direction: column;
-    width: 250px;
-    height: 250px;
-    margin-top: 20px;
-    margin-bottom: 550px;
+    margin-bottom: 500px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 490px) and (max-width: 576px) {
   /* estilos generales*/
   #header-principal {
     flex-direction: column;
@@ -214,25 +212,25 @@ body {
   .logo-container {
     display: flex;
     align-items: center;
-    margin: auto;
+    justify-content: center;
+  }
+  footer {
+    padding-top: 30px;
   }
   /*camisetas de tienda */
   .galeria-tienda-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 2fr);
+    grid-template-rows: auto;
   }
   /* camisetas utileria */
   .galeria-utileria {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
   }
   /* seguimiento */
   .links-container {
     display: flex;
-    align-items: center;
-    align-content: center;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 550px;
+    margin-bottom: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
