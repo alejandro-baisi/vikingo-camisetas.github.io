@@ -8,7 +8,7 @@
 .galeria-tienda-container {
     display: grid;
     grid-template-columns: repeat( 4, 1fr);
-    grid-template-rows: repeat( 3, 3fr);
+    grid-template-rows: auto;
     grid-row-gap: 50px;
     justify-items: center;
     margin-top: 20px;

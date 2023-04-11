@@ -3,13 +3,14 @@
 .links-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
     gap: 20px;
     justify-items: center;
     align-items: center;
     height: 100vh;
     margin-top: 20px;
     margin-bottom: 50px;
+    
 }
 
 .dhl-container, .andreani-container, .mercado-libre-container, .correo-argentino-container {

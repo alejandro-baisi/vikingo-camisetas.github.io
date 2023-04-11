@@ -29,7 +29,7 @@ footer .imagenes-footer img {
 .galeria-tienda-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 3fr);
+  grid-template-rows: auto;
   grid-row-gap: 50px;
   justify-items: center;
   margin-top: 20px;
@@ -78,7 +78,7 @@ footer .imagenes-footer img {
 .links-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto;
   gap: 20px;
   justify-items: center;
   align-items: center;
@@ -214,21 +214,20 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
+  /* camisetas utileria */
+  .galeria-utileria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+  /* seguimiento */
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 550px;
+  }
 }
-/* camisetas utileria */
-.galeria-utileria {
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: auto;
-}
-
-/* seguimiento */
-.links-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 500px;
-}
-
-@media only screen and (min-width: 420px) and (max-width: 720px) {
+@media only screen and (min-width: 420px) and (max-width: 576px) {
   /* estilos generales*/
   #header-principal {
     flex-direction: column;
@@ -256,6 +255,7 @@ body {
   .links-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 500px;
+    margin-top: 20px;
+    margin-bottom: 550px;
   }
 }/*# sourceMappingURL=style.css.map */
