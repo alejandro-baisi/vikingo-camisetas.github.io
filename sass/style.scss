@@ -105,8 +105,6 @@ body {
       grid-template-rows: auto;
     }
 
-    .main-galeria-tienda img {
-      @include tamaños (80%, 80%);
 
   }
     /* camisetas utileria */
@@ -115,9 +113,6 @@ body {
       grid-template-rows: auto;
     }
 
-  .main-galeria-utileria img {
-    @include tamaños (80%, 80%);
-}
     /* seguimiento */
     .links-container {
       display: flex;
