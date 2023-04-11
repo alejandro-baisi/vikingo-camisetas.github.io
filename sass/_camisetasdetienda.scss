@@ -15,10 +15,15 @@
     margin-bottom: 20px;
     text-align: left;
     font-size: 14px;
+    
 }
 
 .main-galeria-tienda img {
     @include tamaños (100%, 200px);
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    
+    
     
 }
 
