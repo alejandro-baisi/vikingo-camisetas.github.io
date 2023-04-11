@@ -106,8 +106,8 @@ body {
     }
 
     .main-galeria-tienda img {
-      @include tamaños (100%, 200px);
-         
+      @include tamaños (80%, 80%);
+
   }
     /* camisetas utileria */
     .galeria-utileria {
@@ -116,7 +116,7 @@ body {
     }
 
   .main-galeria-utileria img {
-    @include tamaños (100%, 200px);
+    @include tamaños (80%, 80%);
 }
     /* seguimiento */
     .links-container {
@@ -146,11 +146,23 @@ body {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
     }
+
+    .main-galeria-tienda img {
+      @include tamaños (80%, 80%);
+
+  }
+  
     /* camisetas utileria */
     .galeria-utileria {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
     }
+
+    .main-galeria-utileria img {
+      @include tamaños (80%, 80%);
+  }
+
+    
     /* seguimiento */
     .links-container {
       display: flex;
