@@ -146,21 +146,11 @@ body {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
     }
-
-    .main-galeria-tienda img {
-      @include tamaños (80%, 80%);
-
-  }
-  
     /* camisetas utileria */
     .galeria-utileria {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
     }
-
-    .main-galeria-utileria img {
-      @include tamaños (80%, 80%);
-  }
 
     
     /* seguimiento */

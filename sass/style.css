@@ -253,18 +253,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
-  .main-galeria-tienda img {
-    width: 80%;
-    height: 80%;
-  }
   /* camisetas utileria */
   .galeria-utileria {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-  }
-  .main-galeria-utileria img {
-    width: 80%;
-    height: 80%;
   }
   /* seguimiento */
   .links-container {
