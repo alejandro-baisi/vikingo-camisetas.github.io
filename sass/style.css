@@ -82,7 +82,6 @@ footer .imagenes-footer img {
   gap: 20px;
   justify-items: center;
   align-items: center;
-  height: 100vh;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -224,7 +223,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-bottom: 550px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 420px) and (max-width: 576px) {
@@ -256,6 +255,6 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-bottom: 550px;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
