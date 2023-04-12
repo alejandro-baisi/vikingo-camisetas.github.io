@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ponte en contacto con Vikingo Camisetas">
     <meta name="keywords" content="Boca Juniors, River Plate, Talleres de Cordoba, Venta, Camisetas, Jersey, Shirt, Vintage, Retro">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../sass/style.css">
     <title>Vikingo Camisetas</title>
 </head>
@@ -27,45 +28,94 @@
         <h2>Vikingo Camisetas</h2>
     </div>
 </header>
-
     <main>
         <div class="titulo-contacto">
-        <h1>CONTACTO</h1>
-    </div>
-        <form class="formulario-container">
-            <fieldset>
-                <legend>SUSCRIPCION LISTA DE DIFUSION</legend>
-                <br>
-                <label for="nombre">Nombre y Apellido</label>
-                <input type="text" name="nombre">
-                <br><br>
-                <label for="telefono">Telefono</label>
-                <input type="text" name="numero telefono">
-                <br><br>
-                <label for="club-de-interes">Club de interés
-                </label>
-                <br>
-                <select name="club" id="Seleccion Argentina">
-                    <option value="Seleccion Argentina">Seleccion Argentina</option>
-                    <option value="Boca Juniors">Boca Juniors</option>
-                    <option value="River Plate">River Plate</option>
-                    <option value="Talleres de Cordoba">Talleres de Cordoba</option>
-                    <option value="Otros Clubes o Selecciones">Otros Clubes o Selecciones</option>
-                </select>
-                <br><br>
-                <label for="tipo-de-camisetas"> Tipo de Camiseta 
-                </label>
-                <br>
-                <input type="checkbox" name="Tienda" id="Tienda">Tienda
-                <br>
-                <input type="checkbox" name="Utileria" id="Utileria">Utileria
-                <br><br>
-                <input type="reset" value="Limpiar Todo">
-                <br><br>
-                <input type="submit" value="Enviar">
+           <h1>CONTACTO</h1>
+        </div>
+        <form>
+            <div class="formulario">
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="nombre">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Telefono</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="telefono">
+              </div>
+            </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Tipo de camiseta</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Tienda
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Utileria
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                  <label class="form-check-label" for="gridRadios3">
+                    Indumentaria
+                  </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Me interesan todas
+                    </label>
+                  </div>
+              </div>
             </fieldset>
-        </form>
+            <div class="row mb-3">
+              <div class="col-sm-10 offset-sm-2">
+                <p>Equipos de interes</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Talleres de Cordoba
+                  </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Seleccion Argentina
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Boca Juniors
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      River Plate
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Otros Clubes o Selecciones
+                    </label>
+                  </div>
+              </div>
+            </div>
+            <button type="submit" class="boton-enviar">Enviar</button>
+          </form>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    </body>
     <footer class="footer-container">
       <div class="imagenes-footer">
          <a href="https://www.facebook.com/vikingo.camisetas.3/photos" target="_blank"> <img src="../imagenes/facebook.png"  alt="facebook"></a>
@@ -74,5 +124,6 @@
 
        <a href="https://wa.me/+5493516201147" target="_blank"> <img src="../imagenes/whatsapp.png" alt="whatsapp"></a>
      </div>
+    </div> 
 </footer>
 </html>

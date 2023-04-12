@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-fieldset {
+/*fieldset {
     padding: 30px;
     width: 30%;
     margin-bottom: 80px ;
@@ -12,4 +12,28 @@ fieldset {
 .formulario-container {
     display: flex;
     justify-content: center;
+}
+*/
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.col-sm-10 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.form-check {
+    margin-left: 2%;
+}
+
+.boton-enviar {
+    margin-left: 30%;
+    margin-right: 30%;
 }
