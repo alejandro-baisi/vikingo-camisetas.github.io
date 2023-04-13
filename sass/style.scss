@@ -50,25 +50,13 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     
-    .menu-nav {  
-        padding: 1px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-    ul {
-        display: flex;
-        padding-left: 0;   
-      }
-      ul li {
-        list-style: none;
-        margin: 3px;
-        
-    }
-    ul li a {
-        color: white;
-        text-decoration: none;
-    }
+    
+}
+
+
+
+.navbar-toggler {
+  background-color: #f3f2eb;
 }
 
 .comprar-btn {
