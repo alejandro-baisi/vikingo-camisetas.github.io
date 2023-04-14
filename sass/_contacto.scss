@@ -18,10 +18,14 @@
 .formulario {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 3%;
     margin-right: 50%;
     margin-top: 5%;
     margin-bottom: 5%;
+    background-color: #e6e1e1;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    padding: 2%;
 }
 
 .col-sm-10 {
