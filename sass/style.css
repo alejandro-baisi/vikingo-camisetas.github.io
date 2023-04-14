@@ -152,7 +152,7 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
   margin-left: 3%;
-  margin-right: 50%;
+  margin-right: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: #e6e1e1;
