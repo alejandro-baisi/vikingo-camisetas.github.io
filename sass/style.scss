@@ -67,7 +67,7 @@ body {
 }
 
 .bg-light {
-  background-color: $azulvikingo; 
+  background-color: $azulvikingo 
 }
 
 
@@ -85,13 +85,10 @@ body {
     color: white;
   }
 
-  .descripcion {
-    margin-top: 10px;
-}
-
 }
 
 @media only screen and (max-width: 420px) {
+
   #header-principal {
     flex-direction: column;
     align-items: center;
