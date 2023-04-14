@@ -91,7 +91,9 @@ body {
 @media only screen and (max-width: 420px) {
 
   .navbar-brand {
-    margin-right: -5px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
   }
 
 
