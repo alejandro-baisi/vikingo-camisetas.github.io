@@ -221,10 +221,9 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .navbar-brand {
+    padding: 0px;
+    margin: -1px;
   }
   footer {
     padding-top: 30px;
@@ -249,10 +248,9 @@ body {
 }
 @media only screen and (min-width: 420px) and (max-width: 576px) {
   /* estilos generales*/
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .navbar-brand {
+    padding: 0px;
+    margin: -1px;
   }
   footer {
     padding-top: 30px;
