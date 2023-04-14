@@ -222,7 +222,7 @@ body {
 
 @media only screen and (max-width: 420px) {
   .navbar-brand {
-    margin-right: 1px;
+    margin-right: -5px;
   }
   footer {
     padding-top: 30px;
