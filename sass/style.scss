@@ -90,6 +90,11 @@ body {
 
 @media only screen and (max-width: 420px) {
 
+  .navbar-brand {
+    margin-right: 1px;
+  }
+
+
 
   footer {
     padding-top: 30px;
@@ -121,6 +126,10 @@ body {
 
   @media only screen and (min-width: 420px) and (max-width: 576px) {
       /* estilos generales*/
+
+      .navbar-brand{
+        margin-right: 1.5px;
+      }
 
     
       footer {
