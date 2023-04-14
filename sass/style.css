@@ -47,6 +47,10 @@ footer .imagenes-footer img {
   margin-bottom: auto;
 }
 
+.descripcion {
+  margin-top: 10px;
+}
+
 .titulo-tienda {
   display: flex;
   justify-content: center;
@@ -79,6 +83,10 @@ footer .imagenes-footer img {
 
 .galeria-utileria p {
   margin-bottom: auto;
+}
+
+.descripcion {
+  margin-top: 10px;
 }
 
 .links-container {
