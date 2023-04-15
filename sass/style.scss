@@ -71,23 +71,7 @@ body {
 }
 
 
-.comprar-btn {
-  border: 2px solid $azulvikingo;
-  color: $azulvikingo;
-  background-color: white;
-  padding: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
 
-
-  &:hover {
-    background-color: $azulvikingo;
-    color: white;
-  }
-
- 
-
-}
 
 
 @media only screen and (max-width: 420px) {
