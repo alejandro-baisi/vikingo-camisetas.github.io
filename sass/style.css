@@ -279,10 +279,8 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
-.formulario{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
+  .formulario {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }/*# sourceMappingURL=style.css.map */
