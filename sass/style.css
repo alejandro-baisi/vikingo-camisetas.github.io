@@ -1,4 +1,3 @@
-/*aplico mixin*/
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,500;1,700&display=swap");
 main .txt-main {
   text-align: center;
@@ -23,7 +22,6 @@ footer .imagenes-footer img {
   height: height;
 }
 
-/*aplico mixin*/
 .galeria-tienda-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -75,7 +73,6 @@ footer .imagenes-footer img {
   background-color: rgb(0, 8, 55);
 }
 
-/*aplico mixin*/
 .titulo-utileria {
   display: flex;
   justify-content: center;
@@ -162,17 +159,6 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
-/*fieldset {
-    padding: 30px;
-    width: 30%;
-    margin-bottom: 80px ;
-}
-
-.formulario-container {
-    display: flex;
-    justify-content: center;
-}
-*/
 .formulario {
   display: flex;
   flex-direction: column;
@@ -253,17 +239,14 @@ body {
   footer {
     padding-top: 30px;
   }
-  /*camisetas de tienda */
   .galeria-tienda-container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
-  /* camisetas utileria */
   .galeria-utileria {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
-  /* seguimiento */
   .links-container {
     display: flex;
     flex-direction: column;
@@ -275,24 +258,20 @@ body {
   }
 }
 @media only screen and (min-width: 420px) and (max-width: 576px) {
-  /* estilos generales*/
   .navbar-brand {
     margin-right: 1.5px;
   }
   footer {
     padding-top: 30px;
   }
-  /*camisetas de tienda */
   .galeria-tienda-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
-  /* camisetas utileria */
   .galeria-utileria {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
-  /* seguimiento */
   .links-container {
     display: flex;
     flex-direction: column;
