@@ -29,7 +29,7 @@ h1 {
 
 
 body { 
-    background-color: rgb(246, 246, 248);
+    background-color: #ffffff;;
     color: $azulvikingo;
     font-family: Prompt;
    
@@ -85,6 +85,33 @@ body {
     flex-direction: column;
   }
 
+  .telefono-container {
+    margin-bottom: 20px;
+    
+  }
+
+  .nosotros-container {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .media-container .media-1 iframe, 
+  .media-container .media-2 iframe {
+    width: 420px;
+    height: 236.25px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+
 
 
   footer {
@@ -125,6 +152,30 @@ body {
       .navbar-brand{
         margin-right: 1.5px;
       }
+
+      .nosotros-container {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .telefono-container {
+        margin-bottom: 20px;
+        
+      }
+
+
+      .media-container {
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        .media-container .media-1 iframe, .media-container .media-2 iframe {
+          width: 520px;
+          height: 315px;
+          box-sizing: border-box;
+          padding: 20px; 
+  }
 
     
       footer {
